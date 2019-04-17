@@ -27,7 +27,7 @@ spring:
             enabled: false
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:mysql://localhost:3306/examenjhipster?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
+        url: jdbc:mysql://b0b2091d4b63e1:3d009b10@us-cdbr-iron-east-02.cleardb.net/heroku_3cebcd0215ab9d2?reconnect=true
         username: root
         password:
         hikari:
