@@ -38,6 +38,20 @@ public class CacheConfiguration {
             cm.createCache(io.github.jhipster.application.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(io.github.jhipster.application.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(io.github.jhipster.application.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(io.github.jhipster.application.domain.Period.class.getName(), jcacheConfiguration);
+            cm.createCache(io.github.jhipster.application.domain.Period.class.getName() + ".projects", jcacheConfiguration);
+            cm.createCache(io.github.jhipster.application.domain.Project.class.getName(), jcacheConfiguration);
+            cm.createCache(io.github.jhipster.application.domain.Project.class.getName() + ".teams", jcacheConfiguration);
+            cm.createCache(io.github.jhipster.application.domain.Team.class.getName(), jcacheConfiguration);
+            cm.createCache(io.github.jhipster.application.domain.Team.class.getName() + ".sprints", jcacheConfiguration);
+            cm.createCache(io.github.jhipster.application.domain.Team.class.getName() + ".students", jcacheConfiguration);
+            cm.createCache(io.github.jhipster.application.domain.Sprint.class.getName(), jcacheConfiguration);
+            cm.createCache(io.github.jhipster.application.domain.Sprint.class.getName() + ".stories", jcacheConfiguration);
+            cm.createCache(io.github.jhipster.application.domain.Story.class.getName(), jcacheConfiguration);
+            cm.createCache(io.github.jhipster.application.domain.Story.class.getName() + ".students", jcacheConfiguration);
+            cm.createCache(io.github.jhipster.application.domain.Story.class.getName() + ".reviews", jcacheConfiguration);
+            cm.createCache(io.github.jhipster.application.domain.Student.class.getName(), jcacheConfiguration);
+            cm.createCache(io.github.jhipster.application.domain.Review.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
